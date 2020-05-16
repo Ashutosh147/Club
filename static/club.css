@@ -1,0 +1,128 @@
+body{
+    font: italic,bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin : 0px;
+    padding :0px;
+    background: url('betterlife.jpg');
+    
+}
+
+.left{
+    
+    color: white;
+    display: inline-block;
+    position: absolute;
+    left: 48px;
+    top: 20px;
+    
+        
+    }
+    
+    .center{
+    
+         display: block;
+         width: 43%;
+        border: 3px solid white;
+         margin: 22px auto;
+         top: 20px;
+        background-color: black;
+        border-radius: 38%
+    }
+
+
+.right{
+    display: inline-block;
+    
+    position: absolute;
+    right: 48px;
+    top: 20px;
+}
+
+.navabar{
+    
+    display: inline-block;
+    border: 1px solid whitesmoke;
+}
+
+.navbar li{
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+}
+
+.navbar li a{
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 34px 23px
+}
+
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline ;
+    color:grey;
+}
+
+
+.left img{
+    width: 76px;
+    height: 40;
+    
+}
+
+.left div{
+    text-align: center;
+    line-height: 12px;
+}
+
+.btn{
+    margin: 12px auto;
+    background-color: black;
+    color: white;
+    padding: 3px 4px;
+    border: solid black;
+    border-radius: 22%;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: grey;
+}
+
+.container{
+    color: black;
+    width: 27%;
+    
+    border: 2px solid white;
+    margin: 2px 22px auto;
+    margin-top: 42px;
+    margin-left: auto;
+    padding: 12px 42px;
+    border-radius: 12px;
+    margin-right: auto;
+    background-color: rgb(216, 200, 200);
+   
+}
+
+.formgroup input{
+    width: 42%;
+    margin: 5px auto;
+    text-align: center;
+    padding: 2px 2px;
+    border: 2px solid black;
+    border-radius: 12%;
+    font-size: 15px;
+}
+
+
+.container h1{
+    text-align: center
+}
+
+.container button{
+
+display: block;
+margin: 20px auto;
+width: 50%;
+
+
+}
